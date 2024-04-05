@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Птахи України</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        header {
+            background-color: rgba(51, 153, 255, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        section {
+            flex: 0 1 300px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+            font-weight: 700;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Птахи України</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Лелека</h2>
+            <img src="1.jpg" alt="Лелека">
+            <p>Лелека – символ весни та родинного щастя.</p>
+            <a href="https://uk.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0" class="btn" target="_blank">Дізнатися більше</a>
+        </section>
+        <section>
+            <h2>Соловей</h2>
+            <img src="2.jpg" alt="Соловей">
+            <p>Соловей – мелодійний співець лісів та садів.</p>
+            <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D0%BE%D0%B2%D0%B5%D0%B9" class="btn" target="_blank">Дізнатися більше</a>
+        </section>
+        <section>
+            <h2>Синиця</h2>
+            <img src="3.jpg" alt="Синиця">
+            <p>Синиця – маленький, але дуже різнобарвний птах.</p>
+            <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D0%B8%D1%86%D1%8F" class="btn" target="_blank">Дізнатися більше</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Птахи України</p>
+    </footer>
+</body>
+</html>
